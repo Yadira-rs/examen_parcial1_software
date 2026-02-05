@@ -6,7 +6,10 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+.logo_utd {
+  width: 150px;   
+  margin: 20px 0; 
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -14,7 +17,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #474f67;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,14 +28,18 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #4bc1e1;
+  display: block;
+  padding: 10px 0;
+}
+h1 {
+  color: #edecf1; /* amarillo */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h2 {
+  color: #4cd083; /* azul claro */
+}
+
+h3 {
+  color: #060606; /* rojo suave */
 }
